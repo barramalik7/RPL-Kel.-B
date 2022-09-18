@@ -16,3 +16,9 @@ Luas_Lingkaran = 3.14 * R * R
 Keliling_Lingkaran = 2 * 3.14 * R
 print("Luas Lingkaran\t :",Luas_Lingkaran)
 print("Keliling Lingkaran\t :",Keliling_Lingkaran)
+
+#Rumus Segitiga
+a = float(input("Masukkan panjang alas: "))
+t = float(input("Masukkan tinggi segitiga: "))
+luas = 0.5*a*t
+print("Luas segitiga adalah :",luas)
