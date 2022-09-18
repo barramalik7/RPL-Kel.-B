@@ -1,7 +1,9 @@
 # Rumus Persegi Panjang
 from re import L
 from tkinter import Variable
-print("Rumus Persegi Panjang")
+print("RPL Kelompok B Tugas Git 1")
+print("____________________________________")
+print("\nRumus Persegi Panjang")
 P = int(input("\nInput Panjang : "))
 L = int(input("\nInput Lebar : "))
 Luas_Persegi_Panjang = P * L
@@ -18,7 +20,8 @@ print("Luas Lingkaran\t :",Luas_Lingkaran)
 print("Keliling Lingkaran\t :",Keliling_Lingkaran)
 
 #Rumus Segitiga
-a = float(input("Masukkan panjang alas: "))
-t = float(input("Masukkan tinggi segitiga: "))
+print("\n Rumus Segitiga")
+a = float(input("\nMasukkan panjang alas: "))
+t = float(input("\nMasukkan tinggi segitiga: "))
 luas = 0.5*a*t
 print("Luas segitiga adalah :",luas)
